@@ -17,6 +17,8 @@ button{
   margin:2px;
 }
 
+
+
 p, h2{
   position:relative;
 
@@ -35,7 +37,8 @@ article{
 }
 
 article:hover p:last-of-type{
-  transform:scale(1.1);
+  transform:scale(1.5);
+  transition : transform 2s;
   color:blue;
   text-decoration: underline;
 }
