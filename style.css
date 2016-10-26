@@ -1,0 +1,41 @@
+body{
+margin:0;
+padding:0;
+border:0;
+}
+
+img{
+  height:150px;
+  float:left;
+  margin:2px;
+}
+
+button{
+  top:0;
+  right:0;
+  position:absolute;
+  margin:2px;
+}
+
+p, h2{
+  position:relative;
+
+}
+p:last-of-type{
+  text-align: center;
+
+}
+article{
+  position:relative;
+  float:left;
+  width:50%;
+  margin:0;
+  border:1px solid #aaa;
+  box-sizing: border-box;
+}
+
+article:hover p:last-of-type{
+  transform:scale(1.1);
+  color:blue;
+  text-decoration: underline;
+}
